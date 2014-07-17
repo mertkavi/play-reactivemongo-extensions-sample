@@ -1,0 +1,17 @@
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+/project/boot/
+/project/plugins/project
+target/
+lib_managed/
+src_managed/
+test-output/
+logs/
+bin/
+snapshots/
+
+*.log
+*.iml

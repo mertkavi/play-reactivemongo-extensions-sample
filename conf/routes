@@ -1,0 +1,8 @@
+GET         /                         controllers.Application.index
+GET         /mails/:folder            controllers.Application.listMails(folder: String)
+GET         /mails/:folder/:id        controllers.Application.updateMail(folder: String, id: BSONObjectID)
+POST        /mails                    controllers.Application.composeMail
+DELETE      /mails/:id                controllers.Application.deleteMail(id: BSONObjectID)
+
+GET         /assets/*file             controllers.Assets.at(path="/public", file)
+
