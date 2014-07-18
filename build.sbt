@@ -8,9 +8,7 @@ playScalaSettings
 
 routesImport ++= Seq("extensions.Binders._", "reactivemongo.bson.BSONObjectID")
 
-resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
-
 libraryDependencies ++= Seq(
-  "net.fehmicansaglam" %% "reactivemongo-extensions-json" % "0.10.0.4-SNAPSHOT",
+  "net.fehmicansaglam" %% "reactivemongo-extensions-json" % "0.10.0.4",
   "org.reactivemongo" %% "play2-reactivemongo" % "0.10.2"
 )
