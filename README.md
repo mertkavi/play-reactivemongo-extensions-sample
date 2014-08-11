@@ -1,6 +1,6 @@
-# ReactiveMongo Extensions Sample Application with Play! Framework 2.2 #
+# ReactiveMongo Extensions Sample Application with Play! Framework 2.3 #
 
-This is a single page web application sample for Play 2.2, enabling support for [ReactiveMongo Extensions](https://github.com/ReactiveMongo/ReactiveMongo-Extensions)
+This is a single page web application sample for Play 2.3, enabling support for [ReactiveMongo Extensions](https://github.com/ReactiveMongo/ReactiveMongo-Extensions)
 
 ReactiveMongo, reactive, asynchronous and non-blocking Scala driver for MongoDB. ReactiveMongo Extensions is to provide all the necessary tools for ReactiveMongo other than the core functionality.
 
@@ -9,7 +9,7 @@ This example use the following:
 * MongoDB
 * ReactiveMongo
 * ReactiveMongo Extensions
-* Play! Framework 2.2
+* Play! Framework 2.3
 * ReactiveMongo Play Plugin
 * Flight JS
 * Require JS
