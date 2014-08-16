@@ -33,7 +33,7 @@ object Mail {
  * Dao implementation for the for the [[Mail]] objects.
  * This object defines specific CRUD functions.
  */
-object MailDao extends JsonDao[Mail, BSONObjectID](() => ReactiveMongoPlugin.db, "mails") {
+object MailDao extends JsonDao[Mail, BSONObjectID](ReactiveMongoPlugin.db, "mails") {
 
   /**
    * Lists mails.
